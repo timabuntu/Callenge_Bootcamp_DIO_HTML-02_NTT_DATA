@@ -8,8 +8,16 @@ body {
   justify-content: center;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 p {
   color: #274f67;
+}
+
+li {
+  list-style: none;
 }
 
 .wrapper {
@@ -23,26 +31,29 @@ p {
   justify-content: space-between;
   flex-flow: column;
   width: 85%;
+  overflow: scroll;
 }
 .menu {
   width: 15%;
   background-color: #d3e2eb;
   padding: 10px 20px 0px;
 }
+
 .header {
   background-color: #d3e2eb;
   min-height: 150px;
 }
 
-.header a img {
+.menu a img {
   width: 100px;
 }
 .content {
-  display: flex;
   background-color: #ffffff;
-  min-height: 300px;
-  padding: 20px 20px 0;
   flex: 1;
+}
+.content section {
+  display: flex;
+  padding: 20px 20px 0;
 }
 .footer {
   background-color: #0a8cbf;
