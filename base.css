@@ -39,6 +39,10 @@ li {
   padding: 10px 20px 0px;
 }
 
+.menu img {
+  padding: 20px;
+}
+
 .header {
   background-color: #d3e2eb;
   min-height: 150px;
