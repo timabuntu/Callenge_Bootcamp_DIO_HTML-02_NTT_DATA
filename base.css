@@ -6,10 +6,20 @@ body {
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
+  font-family: sans-serif;
+  color: #1b1b1b;
 }
 
 h1 {
   font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+strong {
+  color: #49d3f2;
 }
 
 p {
@@ -58,6 +68,19 @@ li {
 .content section {
   display: flex;
   padding: 20px 20px 0;
+}
+
+.content section img {
+  max-width: 50%;
+}
+
+.services {
+  background: #7e84f2;
+  color: #fff;
+}
+
+.services p {
+  color: #ffffff;
 }
 .footer {
   background-color: #0a8cbf;
