@@ -16,9 +16,11 @@ p {
   width: 1200px;
   display: flex;
   margin: 0 auto;
+  height: 100vh;
 }
 .main {
   display: flex;
+  justify-content: space-between;
   flex-flow: column;
   width: 85%;
 }
@@ -31,12 +33,17 @@ p {
   background-color: #d3e2eb;
   min-height: 150px;
 }
+
+.header a img {
+  width: 100px;
+}
 .content {
   background-color: #ffffff;
   min-height: 300px;
   padding: 20px;
+  flex: 1;
 }
 .footer {
-  background-color: #274f67;
+  background-color: #0a8cbf;
   min-height: 150px;
 }
