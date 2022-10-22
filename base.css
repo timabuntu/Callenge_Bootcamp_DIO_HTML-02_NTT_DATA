@@ -13,6 +13,7 @@ body {
 
 a {
   font-weight: 600;
+  color: #7348d4;
 }
 h1 {
   font-size: 3em;
@@ -76,6 +77,53 @@ li {
 .content section {
   display: flex;
   padding: 20px 20px 0;
+}
+
+.form {
+  height: 200px;
+  background: #7348d4;
+  justify-content: center;
+  align-items: center;
+}
+.form-types {
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+}
+
+input {
+  padding: 8px;
+}
+
+textarea,
+input,
+fieldset {
+  border: 2px #cccccc solid;
+  border-radius: 4px;
+}
+.submit {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: #f553cf;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
 }
 
 .services {
@@ -167,7 +215,7 @@ li {
   border-radius: 8px;
   align-items: center;
   margin-top: 32px;
-  background: #d3e2eb;
+  background: #49d3f2;
 }
 .dentists .card img {
   padding: 16px 0 0 0;
