@@ -10,10 +10,17 @@ body {
   font-family: sans-serif;
   color: #1b1b1b;
 }
+ul {
+  padding: 0;
+}
 
 a {
   font-weight: 600;
-  color: #7348d4;
+  color: #0a8cbf;
+}
+
+a:hover {
+  color: #7e84f2;
 }
 h1 {
   font-size: 3em;
@@ -54,9 +61,11 @@ li {
   overflow: scroll;
 }
 .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 15%;
   background-color: #d3e2eb;
-  padding: 10px 20px 0px;
 }
 
 .menu img {
@@ -74,6 +83,18 @@ li {
 .content {
   flex: 1;
 }
+
+.content h1 {
+  color: #3b3b3b;
+}
+
+.content p {
+  color: #0a8cbf;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2rem;
+}
+
 .content section {
   display: flex;
   padding: 20px 20px 0;
@@ -88,7 +109,7 @@ li {
 .form-types {
   align-items: center;
   display: flex;
-  color: #ffffff;
+  color: #f1f1f1;
   flex-direction: column;
 }
 
@@ -106,7 +127,7 @@ input {
 textarea,
 input,
 fieldset {
-  border: 2px #cccccc solid;
+  border: 2px #f1f1f1 solid;
   border-radius: 4px;
 }
 .submit {
@@ -121,7 +142,7 @@ button {
   background: #f553cf;
   border-radius: 4px;
   padding: 8px 12px;
-  color: #fff;
+  color: #f1f1f1;
   font-weight: 600;
   border: none;
 }
@@ -130,11 +151,11 @@ button {
   display: flex;
   flex-direction: column;
   background: #7e84f2;
-  color: #fff;
+  color: #ececec;
 }
 
 .services p {
-  color: #ffffff;
+  color: #f1f1f1;
 }
 
 .header-services {
@@ -161,14 +182,14 @@ button {
   display: flex;
   width: 100%;
   flex-direction: column;
-  color: #3b3b3b;
+  color: #274f67;
   padding: 16px;
   align-items: center;
   border-radius: 8px;
 }
 
 .services .cards .card p {
-  color: #3b3b3b;
+  color: #274f67;
   font-weight: normal;
 }
 .card img {
@@ -178,22 +199,22 @@ button {
 }
 
 .card1 {
-  background-color: #ffc7fa;
+  background-color: #ffe3fd;
 }
 .card2 {
-  background-color: #b5ccff;
+  background-color: #d7e4ff;
 }
 .card3 {
-  background-color: #daaefd;
+  background-color: #e9cfff;
 }
 .card4 {
-  background-color: #d8f8f4;
+  background-color: #eefffd;
 }
 
 .dentists {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: #fff;
   color: #274f67;
 }
 
@@ -215,11 +236,11 @@ button {
   border-radius: 8px;
   align-items: center;
   margin-top: 32px;
-  background: #49d3f2;
+  background: #c1f4ff;
 }
 .dentists .card img {
   padding: 16px 0 0 0;
-  background: #fff;
+  background: #f1f1f1;
   border-radius: 8px;
 }
 
