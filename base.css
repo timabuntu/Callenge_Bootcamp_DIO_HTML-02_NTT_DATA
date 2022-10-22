@@ -169,6 +169,11 @@ li {
   margin-top: 32px;
   background: #d3e2eb;
 }
+.dentists .card img {
+  padding: 16px 0 0 0;
+  background: #fff;
+  border-radius: 8px;
+}
 
 .dentists .card p {
   font-weight: normal;
