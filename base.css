@@ -16,11 +16,11 @@ ul {
 
 a {
   font-weight: 600;
-  color: #0a8cbf;
+  color: #7e84f2;
 }
 
 a:hover {
-  color: #7e84f2;
+  color: #0a8cbf;
 }
 h1 {
   font-size: 3em;
@@ -65,7 +65,7 @@ li {
   flex-direction: column;
   align-items: center;
   width: 15%;
-  background-color: #d3e2eb;
+  background-color: #d7e4ff;
 }
 
 .menu img {
@@ -73,8 +73,23 @@ li {
 }
 
 .header {
-  background-color: #d3e2eb;
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  background-color: #0a8cbf;
   min-height: 150px;
+}
+
+.header button {
+  margin-top: 1rem;
+  margin-right: 20px;
+  padding: 1rem 2rem;
+  background: #13c7f0;
+  color: #fff;
+}
+
+.header button:hover {
+  background: #49d3f2;
 }
 
 .menu a img {
@@ -82,6 +97,7 @@ li {
 }
 .content {
   flex: 1;
+  background: #fff;
 }
 
 .content h1 {
@@ -116,7 +132,7 @@ li {
 fieldset {
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 2rem;
   gap: 16px;
 }
 
@@ -214,7 +230,7 @@ button {
 .dentists {
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #ffffff;
   color: #274f67;
 }
 
@@ -240,7 +256,7 @@ button {
 }
 .dentists .card img {
   padding: 16px 0 0 0;
-  background: #f1f1f1;
+  background: #ffffff;
   border-radius: 8px;
 }
 
